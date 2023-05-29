@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AIArtCreator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="ai_art_crea">AI Art Creator</string>
+    <string name="lorem_ipsum">Experience the power of AI in art creation. Unleash your imagination with AI Art Creator. Start creating today</string>
+    <string name="continuee">Continue</string>
+    <string name="idea1">Planets: Artificial intelligence can create visuals of different planets like in science fiction movies.</string>
+    <string name="idea2">Animal Portraits: Artificial intelligence can draw portraits of real animals or create creature designs.</string>
+    <string name="idea3">Artistic Interpretations: Artificial intelligence can create new art pieces using the works of famous painters.</string>
+    <string name="idea4">Futuristic Cities: Artificial intelligence can design future cities and create visuals of these cities.</string>
+    <string name="idea5">Fairy Tale World: Artificial intelligence can visualize the characters, places, and objects in fairy tales.</string>
+    <string name="idea6">Science Fiction Wars: Artificial intelligence can design science fiction battle scenes and create visuals of these scenes.</string>
+    <string name="idea7">Fantastic Creatures: Artificial intelligence can design different creatures and create visuals of these creatures.</string>    <string name="creating_yo">Creating Your Image</string>
+    <string name="start_explo">Start Exploring</string>
+    <string name="explore_pre">Explore <b>PREMIUM</b></string>
+    <string name="unleash_you">Unleash your creativity with PRO experience</string>
+    <string name="fast_procce">Fast proccessing</string>
+    <string name="days_free_t">3 Days Free Trial</string>
+    <string name="weekly_plan">Weekly Plan</string>
+    <string name="some_id">$3.99</string>
+    <string name="some_id2">$29.99</string>
+    <string name="yearly_plan">Yearly Plan</string>
+    <string name="start">Start</string>
+    <string name="terms_of_us">Terms of Use</string>
+    <string name="restore_pur">Restore Purchase</string>
+    <string name="privacy_pol">Privacy Policy</string>
+    <string name="select_an_i">Select an Idea</string>
+    <string name="settings">Settings</string>
+    <string name="try_premium">Try Premium</string>
+    <string name="explore_lor">Explore\n<b>Lorem İpsum</b></string>
+    <string name="enter_promp">Enter Prompt</string>
+    <string name="example_ide">Example Ideas</string>
+    <string name="apply_examp">Apply Example</string>
+
+
+</resources>

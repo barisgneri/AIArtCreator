@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/inAppFragment"
+        android:name="com.barisguneri.aiartcreator.ui.InAppFragment"
+        android:label="fragment_in_app"
+        tools:layout="@layout/fragment_in_app" >
+        <action
+            android:id="@+id/action_inAppFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.barisguneri.aiartcreator.ui.LoadingFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_loading" >
+        <action
+            android:id="@+id/action_loadingFragment_to_onboardingResultFragment"
+            app:destination="@id/onboardingResultFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingResultFragment"
+        android:name="com.barisguneri.aiartcreator.ui.OnboardingResultFragment"
+        android:label="fragment_onboarding_result"
+        tools:layout="@layout/fragment_onboarding_result" >
+        <action
+            android:id="@+id/action_onboardingResultFragment_to_inAppFragment"
+            app:destination="@id/inAppFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectIdeaFragment"
+        android:name="com.barisguneri.aiartcreator.ui.SelectIdeaFragment"
+        android:label="fragment_select_idea"
+        tools:layout="@layout/fragment_select_idea" >
+        <action
+            android:id="@+id/action_selectIdeaFragment_to_loadingFragment"
+            app:destination="@id/loadingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.barisguneri.aiartcreator.ui.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_selectIdeaFragment"
+            app:destination="@id/selectIdeaFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_inAppFragment"
+            app:destination="@id/inAppFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.barisguneri.aiartcreator.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_inAppFragment"
+            app:destination="@id/inAppFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.barisguneri.aiartcreator.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exampleIdesFragment"
+            app:destination="@id/exampleIdesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_loadingFragment"
+            app:destination="@id/loadingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.barisguneri.aiartcreator.ui.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_loadingFragment"
+            app:destination="@id/loadingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exampleIdesFragment"
+        android:name="com.barisguneri.aiartcreator.ui.ExampleIdesFragment"
+        android:label="fragment_example_ides"
+        tools:layout="@layout/fragment_example_ides" >
+        <action
+            android:id="@+id/action_exampleIdesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.barisguneri.aiartcreator.ui.FavoritesFragment"
+        android:label="FavoritesFragment" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+</navigation>
